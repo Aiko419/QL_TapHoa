@@ -22,10 +22,6 @@ namespace QL_TapHoa.Controllers
         {
             return View();
         }
-        public IActionResult test()
-        {
-            return View();
-        }
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
